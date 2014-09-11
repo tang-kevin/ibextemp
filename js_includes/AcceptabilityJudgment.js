@@ -39,7 +39,7 @@ jqueryWidget: {
                             rightComment:        this.options.rightComment }],
             manipulators: [
                 [0, function(div) { div.css('font-size', "larger"); return div; }]
-            ]*/
+            ]
         };
 
         this.element.VBox(opts);
