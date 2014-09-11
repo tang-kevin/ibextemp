@@ -53,7 +53,7 @@ jqueryWidget: {
         this.mainDiv = $("<div>");
         this.element.append(this.mainDiv);
 
-        this.background = this.element.css('background-color') || "white";
+        this.background = this.element.css('background-color') || "blue";
         this.isIE7;
         /*@cc_on this.isIE = true; @*/
         if (this.isIE)
